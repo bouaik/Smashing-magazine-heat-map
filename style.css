@@ -20,13 +20,15 @@ header .box {
 }
 .dont-miss {
     display: flex;
-    height: 700px;
+    flex-wrap: wrap;
+    height: 800px;
     margin-top: 5px;
+    justify-content: space-between;
 }
 .dont-miss .article {
     background-color: rgb(93, 89, 89);
-    flex: 1;
-    margin: 0 3px;
+    width: 49%;
+    margin: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,4 +40,71 @@ header .box {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.second-article{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.s-article{
+    display: flex;
+    width: 33%;
+    height: 400px;
+    background: #ccc;
+    justify-content: center;
+    align-items: center;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.section>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.section-text1{
+    display: flex;
+    align-items: flex-start !important;
+    background: #ddd;
+    width: 30%;
+}
+.section-text2{
+    background-color: #555;
+    width: 69%;  
+}
+.latest-articles{
+    background-color: grey;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.book{
+    display: flex;
+    background-color: #555;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.author{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    margin: 10px;
+}
+.author>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.author .photo{
+    width: 30%;
+    margin-right: 10px;
+}
+.author .about{
+    width: 69%;
 }
