@@ -74,7 +74,6 @@ header .box {
 
 .section-text1 {
   display: flex;
-  align-items: flex-start !important;
   background: #ddd;
   width: 30%;
 }
