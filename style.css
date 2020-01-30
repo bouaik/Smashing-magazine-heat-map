@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 5000px;
+}
+header {
+    display: flex;
+    height: 200px;
+}
+header .box {
+    background-color: grey;
+    flex: 1;
+    margin: 0 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dont-miss {
+    display: flex;
+    height: 700px;
+    margin-top: 5px;
+}
+.dont-miss .article {
+    background-color: rgb(93, 89, 89);
+    flex: 1;
+    margin: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    margin-top: 3px;
+    background-color: rgb(177, 177, 177);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
